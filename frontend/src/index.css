@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-xl rounded-2xl;
+  }
+  
+  .btn-primary {
+    @apply px-4 py-2 bg-nature-600 hover:bg-nature-700 text-white font-medium rounded-lg transition-colors duration-200 shadow-md hover:shadow-lg focus:ring-2 focus:ring-nature-500 focus:outline-none focus:ring-offset-2;
+  }
+  
+  .btn-secondary {
+    @apply px-4 py-2 bg-white hover:bg-gray-50 text-gray-700 border border-gray-200 font-medium rounded-lg transition-colors duration-200 shadow-sm focus:ring-2 focus:ring-nature-500 focus:outline-none focus:ring-offset-2;
+  }
+}
