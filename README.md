@@ -1,4 +1,15 @@
-# Crop Shift Mitigation Platform
+# Crop Shift Mitigation Web Portal 
+
+**Problem Statement ID:** 25273  
+**Organization:** Ministry of Agriculture & Farmers Welfare (MoA&FW)  
+**Domain:** Agriculture, FoodTech & Rural Development
+
+## Project Overview
+This project is a **Web-based Digital Platform** designed to encourage farmers to shift from traditional crops to oilseeds. It utilizes **predictive analytics** and **market intelligence** to provide:
+- **Comparative Crop Economics:** "What-if" analysis for shifting to oilseeds.
+- **Profitability Simulations:** Long-term profit forecasting.
+- **Risk Mitigation:** Integration with government schemes like NMEO-OS and crop insurance.
+- **Market Linkages:** Direct connection to Farmer Producer Organizations (FPOs).
 
 A full-stack agricultural platform to help farmers transition to oilseed farming based on localized data, complete with mock Machine Learning predictions, financial comparisons, and market data tracking.
 
@@ -55,3 +66,8 @@ A full-stack agricultural platform to help farmers transition to oilseed farming
    npm run dev
    ```
 4. Browse to the URL provided by Vite (usually `http://localhost:5173`).
+
+## Key Objectives
+1. Increase domestic oilseed production to reduce import dependency.
+2. Provide farmers with data-driven assurance for crop shifting.
+3. Bridge the gap between farmers and government support systems.
